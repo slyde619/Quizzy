@@ -65,6 +65,7 @@ const displayQuestions = (question) => {
 		button.classList.add("optionlist");
 		button.classList.add(`optionlist-${index}`);
 		quizOption.classList.remove("pointer-fix");
+		
 
 		quizOption.appendChild(button);
 
@@ -93,11 +94,13 @@ const checkAnswer = (e) => {
 		score.textContent = `${points}`;
 		quizOption.classList.add("pointer-fix");
 		selectedOption.classList.add("correct");
+		selectedOption.classList.add("white");
 
 		counter.innerText = `${count} of ${sortQuestions.length}`;
 	} else {
 		quizOption.classList.add("pointer-fix"); 
 		selectedOption.classList.add("incorrect");
+		selectedOption.classList.add("white");
 	
 		if (currentQuestion.answer === 1) {
 			option1.classList.add("correct");
