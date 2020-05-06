@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quizzy App</title>
+		<link rel="stylesheet" href="style.css"/>  
+	</head>
+	<body id="body">
+		<section id="quiz" class="quiz-wrapper">
+			
+			<div id="quiz-info">
+				<h1 class="quiz-heading"> Quizzy</h1>
+				<button class="start-quiz" id="start-btn">Start quiz</button>
+            </div>
+            
+			<div id="quiz-content" class=" hide">
+				<div class="tracker">
+
+					<div class="quizCounter">
+						<p class="counter-question">
+							Questions
+						</p>
+						<p class="counter-number">0 / 5</p>
+					</div>
+					<div class="quizScore">
+						<p class="score-text-header">
+							Score
+						</p>
+						<p class="score-text">0</p>
+					</div>
+				</div>
+
+				<div class="quiz-text">
+					<h1 class="quizHeading"> Question </h1>
+				</div>
+				
+				<p class="quizPoints"><span class="bold">5 points</span> for each answer!!! Goodluck...</p>
+
+				<div class="options"></div>
+				<button id="next" class="next-btn">Next</button>
+			</div>
+
+		</section>
+		<script src="quiz.js"></script>
+	</body>
+</html>
