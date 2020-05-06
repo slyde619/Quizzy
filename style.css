@@ -83,20 +83,22 @@ h1 {
     width: 100%; 
     font-size: 1.44rem; 
     border: none;
-    border-radius: .25rem; 
-    /* margin: 1rem auto;   */
+    border-radius: .75rem; 
+   
     cursor: pointer; 
-    /* padding: 1rem 1.4rem;  */
+   
     outline: none; 
     
       
 }
 
 .optionlist{
-    background-color: #a9c4fa; 
-    border-radius: .3185rem;
-    padding: 1rem;
+    background-color: #95a0b8bd; 
+    border-radius: .85rem;
+    padding: 1rem 0.75rem;
     margin: 0 auto;
+    
+
 }
 
 .next-btn{
@@ -135,12 +137,19 @@ h1 {
 
 .optionlist {
     width: 100%; 
-    font-size: 1.44rem; 
-    border-radius: .2rem; 
+    font-size: 1.84rem; 
+    border-radius: .79rem; 
     margin: 1rem auto;  
     cursor: pointer; 
-    padding: 1.3rem 1.4rem; 
+    padding: 1.2rem; 
     outline: none;   
+    box-shadow: 0 0 .35rem .22rem;  
+    font-weight: 600; 
+}
+
+.optionlist:hover{
+    background: #596a8b;
+    color: #fff;
 }
 
 .btn-reload {
