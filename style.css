@@ -93,10 +93,12 @@ h1 {
 }
 
 .optionlist{
-    background-color: #95a0b8bd; 
+    background: #cfdaf3bd; 
     border-radius: .85rem;
     padding: 1rem 0.75rem;
     margin: 0 auto;
+    box-shadow: 0 0 .35rem .22rem;  
+    font-weight: 600; 
     
 
 }
@@ -143,12 +145,10 @@ h1 {
     cursor: pointer; 
     padding: 1.2rem; 
     outline: none;   
-    box-shadow: 0 0 .35rem .22rem;  
-    font-weight: 600; 
+    
 }
 
 .optionlist:hover{
-    background: #596a8b;
     color: #fff;
 }
 
